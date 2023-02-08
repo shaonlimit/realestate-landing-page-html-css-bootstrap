@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Real Estate Landing Page</title>
+</head>
+
+<body>
+    <!-- ---------------header----------------- -->
+    <header class="container-fluid p-0 m-0">
+
+        <!-- --------nav bar----------- -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container py-0 px-3">
+                <a class="navbar-brand" href="#"><span class="text-danger">Pixxel</span>Shaon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ------------carousel------------ -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/home-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  ">
+                        <h5>Your Dream House
+                        </h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit veritatis ipsam
+                            provident tempora nihil ratione.</p>
+                        <button class="btn btn-danger">Know More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/home-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  ">
+                        <h5>Always Dedicated </h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit veritatis ipsam
+                            provident tempora nihil ratione.</p>
+                        <button class="btn btn-danger">Know More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/home-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  ">
+                        <h5>True Construction</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit veritatis ipsam
+                            provident tempora nihil ratione.</p>
+                        <button class="btn btn-danger">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+
+    <!-- --------about----------- -->
+    <section class="container" id="about">
+        <h3 class="text-center d-flex justify-content-center align-items-center section-heading">
+            <div class="left"></div> <span class="mx-3">About Us</span>
+            <div class="right"></div>
+        </h3>
+        <div class="row g-4 align-items-center">
+            <div class="col-md-7">
+                <h4 class="subsection-heading">How to Make <span class="special-text">Real State</span> Business
+                    Increase of your Luxury Home</h4>
+                <h6 class="internal-section-heading text-muted">If you are going to use a passage of Lorem Ipsum, you
+                    need to be sure there isn't anything embarrassing hidden in the middle of text</h6>
+                <ul class="text-muted">
+                    <li>Software like Aldus PageMaker including versions.</li>
+                    <li>Where can I get some?</li>
+                    <li>Sometimes on purpose (injected humour and the like).</li>
+                    <li>It was popularised in the 1960s with the release of Letraset sheets.</li>
+
+                </ul>
+                <button class="btn btn-danger">Read More</button>
+            </div>
+
+            <div class="col-md-5">
+                <div><img src="images/about.jpg" alt="" class=" img-fluid"></div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ---------services--------- -->
+    <section class="container" id="services">
+        <h3 class="text-center d-flex justify-content-center align-items-center section-heading">
+            <div class="left"></div> <span class="mx-3">Services</span>
+            <div class="right"></div>
+        </h3>
+
+        <div class="row align-items-center g-4 mt-5">
+            <div class="col-md-6 subsection-col">
+                <div>
+                    <h4 class="subsection-heading ">We are Interested for Your <span class="special-text">Real State
+                            Service</span> in the World Wide Business</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <p class="text-muted">Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                        their default model text</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="text-center shadow p-3 mb-5 bg-body rounded">
+                    <img src="images/project-1.jpg" alt="" class="img-fluid">
+                    <h4 class="my-4 card-title">Sold A Home Property</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil
+                        placeat, eos fuga minima ex? Laboriosam veniam cupiditate ducimus possimus.</p>
+                    <button class="btn btn-danger">Read More</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-center shadow p-3 mb-5 bg-body rounded">
+                    <img src="images/project-2.jpg" alt="" class="img-fluid">
+                    <h4 class="my-4 card-title">Buy A Home Property</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil
+                        placeat, eos fuga minima ex? Laboriosam veniam cupiditate ducimus possimus.</p>
+                    <button class="btn btn-danger">Read More</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-center shadow p-3 mb-5 bg-body rounded">
+                    <img src="images/project-3.jpg" alt="" class="img-fluid">
+                    <h4 class="my-4 card-title">Home Services & Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil
+                        placeat, eos fuga minima ex? Laboriosam veniam cupiditate ducimus possimus.</p>
+                    <button class="btn btn-danger">Read More</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ------team------------ -->
+    <section class="container" id="team">
+        <h3 class="text-center d-flex justify-content-center align-items-center section-heading">
+            <div class="left"></div> <span class="mx-3">Team</span>
+            <div class="right"></div>
+        </h3>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3" id="team">
+                <div class="team">
+                    <img src="https://themesfamily.com/tm/hayy/assets/img/team/1.jpg" alt="" class="img-fluid">
+                    <div class="team-title text-center text-white">
+                        <h5 class="mt-4">Mika K. Valle</h5>
+                        <p class="">Rent Services</p>
+                    </div>
+                    <div class="social-link">
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-linkedin'></i>
+                        <i class='bx bxl-google-plus'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3" id="team">
+                <div class="team">
+                    <img src="https://themesfamily.com/tm/hayy/assets/img/team/2.jpg" alt="" class="img-fluid">
+                    <div class="team-title text-center text-white">
+                        <h5 class="mt-4">Babar Azam</h5>
+                        <p class="">Rent Property</p>
+                    </div>
+                    <div class="social-link">
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-linkedin'></i>
+                        <i class='bx bxl-google-plus'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3" id="team">
+                <div class="team">
+                    <img src="https://themesfamily.com/tm/hayy/assets/img/team/3.jpg" alt="" class="img-fluid">
+                    <div class="team-title text-center text-white">
+                        <h5 class="mt-4">Shaheen Shah Afridi</h5>
+                        <p class="">Home Sold</p>
+                    </div>
+                    <div class="social-link">
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-linkedin'></i>
+                        <i class='bx bxl-google-plus'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3" id="team">
+                <div class="team">
+                    <img src="https://themesfamily.com/tm/hayy/assets/img/team/4.jpg" alt="" class="img-fluid">
+                    <div class="team-title text-center text-white">
+                        <h5 class="mt-4">Shadab Khan</h5>
+                        <p class="">Home Services</p>
+                    </div>
+                    <div class="social-link">
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-linkedin'></i>
+                        <i class='bx bxl-google-plus'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------Blog--------- -->
+    <section class="container" id="blog">
+        <h3 class="text-center d-flex justify-content-center align-items-center section-heading">
+            <div class="left"></div> <span class="mx-3">Blog</span>
+            <div class="right"></div>
+        </h3>
+
+        <div class="row align-items-center g-4 mt-5">
+            <div class="col-md-6 subsection-col">
+                <div>
+                    <h4 class="subsection-heading ">Support are Interested for <span class="special-text">Real
+                            State</span> Blog of Recent News</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <p class="text-muted">Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                        their default model text</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 g-4">
+            <div class="col-lg-4 col-md-12">
+                <div class="blog bg-white">
+                    <img src="https://themesfamily.com/tm/hayy/assets/img/service/1.jpg" alt="" class="img-fluid">
+                    <div class="blog-content p-4">
+                        <h4 class="">10 Property Selling & Buying</h4>
+                        <hr>
+                        <i class='bx bxs-user text-muted'>&nbsp Sakib Al Hasan</i> <br>
+                        <i class='bx bxs-calendar text-muted'>&nbsp March 21, 2022</i>
+                        <p class="text-muted">Tag: Sold, Featured, Real Estate</p>
+                        <hr>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                            suscipit unde libero ipsam, iste accusamus odit dignissimos soluta laborum? Qui.</p>
+                        <button class="btn btn-danger">Know More</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="blog bg-white">
+                    <img src="https://themesfamily.com/tm/hayy/assets/img/service/2.jpg" alt="" class="img-fluid">
+                    <div class="blog-content p-4">
+                        <h4 class="">Tips & Tricks 15 Property Buying</h4>
+                        <hr>
+                        <i class='bx bxs-user text-muted'>&nbsp Sabbir Rahman</i> <br>
+                        <i class='bx bxs-calendar text-muted'>&nbsp January 05, 2022</i>
+                        <p class="text-muted">Tag: Sold, Featured, Real Estate</p>
+                        <hr>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                            suscipit unde libero ipsam, iste accusamus odit dignissimos soluta laborum? Qui.</p>
+                        <button class="btn btn-danger">Know More</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="blog bg-white">
+                    <img src="https://themesfamily.com/tm/hayy/assets/img/service/3.jpg" alt="" class="img-fluid">
+                    <div class="blog-content p-4">
+                        <h4 class="">Tips & Tricks 13 Property Selling</h4>
+                        <hr>
+                        <i class='bx bxs-user text-muted'>&nbsp Nasir Ahmed</i> <br>
+                        <i class='bx bxs-calendar text-muted'>&nbsp February 14, 2022</i>
+                        <p class="text-muted">Tag: Sold, Featured, Real Estate</p>
+                        <hr>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                            suscipit unde libero ipsam, iste accusamus odit dignissimos soluta laborum? Qui.</p>
+                        <button class="btn btn-danger">Know More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Contact----------- -->
+    <section class="container" id="contact">
+        <h3 class="text-center d-flex justify-content-center align-items-center section-heading">
+            <div class="left"></div> <span class="mx-3">Contact</span>
+            <div class="right"></div>
+        </h3>
+
+        <div class="row mt-5 g-4">
+            <div class="col-md-7">
+                <h4 class="subsection-heading ">Frequently  <span class="special-text">Asked</span>
+                    Question</h4>
+                <!-- ------accordion----- -->
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How to Real Estate Service 25 Years Experience
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                                non-characteristic words etc.If you are going to use a passage of Lorem Ipsum.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Why to Important to Other Property?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                                non-characteristic words etc.If you are going to use a passage of Lorem Ipsum.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How to Learn to Our Rent Home?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                                non-characteristic words etc.If you are going to use a passage of Lorem Ipsum.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How to Learn to Our Sold Consultant?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                                non-characteristic words etc.If you are going to use a passage of Lorem Ipsum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- -------contact form---------- -->
+            <div class="col-md-5 contact-form">
+                <h4 class="subsection-heading ">Get In  <span class="special-text">Touch</span>
+                    Question</h4>
+                    <div class="row g-3">
+                        <div class="col-lg-6 col-md-12">
+                            <input type="text" placeholder="First Name" class="form-control">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <input type="text" placeholder="Last Name" class="form-control">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Your Email" class="form-control">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Your Subject" class="form-control">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-danger w-100">Send Message</button>
+                        </div>
+                    </div>
+
+            </div>
+    </section>
+
+ <!-- ------------------footer---------------- -->
+ <footer>
+    <section class="container-fluid footer-color">
+   
+   
+        <div class="row g-5">
+       
+            <div class="col-lg-3 col-md-12 text-white">
+                <div class="footer-left">
+                    <h4 class="footer-title">Our Hayy</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae vel repellat non eligendi inventore assumenda?</p>
+                <h4 class="mt-4 mb-2">Follow Us</h4>
+                <div class="footer-social-link">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-behance'></i>
+                    <i class='bx bxl-linkedin' ></i>
+                    <i class='bx bxl-twitter' ></i>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="quick-links text-white">
+                    <h4 class="footer-title">Quick Links</h4>
+                <ul>
+                   
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Get Started</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Our Team</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">About Us</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Need Helps</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Contact Us</a></i></li>
+                    
+                </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="quick-links text-white">
+                    <h4 class="footer-title">Our Services</h4>
+                <ul>
+                   
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Our Faq</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Our Services</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Our Course</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Site Map</a></i></li>
+                    <li> <i class='bx bxs-right-arrow'>&nbsp<a href="">Our News</a></i></li>
+                    
+                </ul>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-12">
+                <div class="footer-gallery text-white">
+                    <h4 class="footer-title ">Our Gallery</h4>
+                        
+                         <div class="footer-img row g-4">
+                            <div class="col-lg-4 col-md-2 col-6">
+                                <a href=""> <img src="https://themesfamily.com/tm/hayy/assets/img/service/footer/1.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                           <div class="col-lg-4 col-md-2 col-6">
+                            <a href=""><img src="https://themesfamily.com/tm/hayy/assets/img/service/footer/2.jpg" alt="" class="img-fluid"></a>
+                           </div>
+                         <div class="col-lg-4 col-md-2 col-6">
+                            <a href=""><img src="https://themesfamily.com/tm/hayy/assets/img/service/footer/3.jpg" alt="" class="img-fluid"></a>
+                         </div>
+                       <div class="col-lg-4 col-md-2 col-6">
+                        <a href=""> <img src="https://themesfamily.com/tm/hayy/assets/img/service/footer/4.jpg" alt="" class="img-fluid"></a>
+                       </div>
+                        <div class="col-lg-4 col-md-2 col-6">
+                            <a href=""> <img src="https://themesfamily.com/tm/hayy/assets/img/service/footer/5.jpg" alt="" class="img-fluid"></a>
+                        </div>
+                         <div class="col-lg-4 col-md-2 col-6">
+                            <a href=""> <img src="https://themesfamily.com/tm/hayy/assets/img/service/footer/6.jpg" alt="" class="img-fluid"></a>
+                         </div>
+                         </div>
+                       
+                      
+                </div>
+            </div>
+        
+       </div>
+    
+       
+
+ </section>
+ <div class="bottom-footer">
+    
+        <div class="col-md-6 mx-auto text-center text-white">
+          All Rights Reserved @Saiful Islam Shaon
+        </div>
+ 
+ </div>
+
+
+ </footer>
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
